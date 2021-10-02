@@ -2031,6 +2031,9 @@ select {
 .disabled\:opacity-25:disabled {
 	opacity: 0.25;
 }
+.disabled\:opacity-50:disabled {
+	opacity: 0.5;
+}
 @media (min-width: 640px) {
 
 	.sm\:col-span-4 {
