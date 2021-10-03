@@ -19,8 +19,10 @@ use Inertia\Inertia;
 
 Route::get('/', [GeneratePageController::class,'index'])->name('Welcome');
 
+
+Route::get('/dashboard',[DashboardController::class,'index'])->name('dashboard');
+
 Route::group(['middleware' => ['auth:sanctum']], function () {
  
-    Route::get('/dashboard',[DashboardController::class,'index'])->name('dashboard');
    
 });
