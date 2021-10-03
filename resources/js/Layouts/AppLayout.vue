@@ -3,7 +3,7 @@
   <jet-banner />
   <div
     class="hold-transition sidebar-mini layout-fixed"
-    :class="hideSidebarMini?'sidebar-collapse':''"
+    :class="[hideSidebarMini?'sidebar-collapse':'' ,darkMode?'dark-mode':'']"
   >
     <div class="wrapper">
       <!-- Navbar -->
@@ -305,6 +305,19 @@
                   </p>
                 </a>
                 <ul class="nav nav-treeview">
+                  <li
+                    class="nav-item"
+                    @click="darkMode?darkMode =false:darkMode=true"
+                  >
+                    <input
+                      type="checkbox"
+                      class="custom-control-input"
+                      @click="darkMode?darkMode =false:darkMode=true"
+                    >
+                    <label
+                      class="custom-control-label"
+                    >dark mode</label>
+                  </li>
                   <li class="nav-item">
                     <a
                       href=""
@@ -312,164 +325,6 @@
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Dashboard </p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="./index2.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Dashboard dark mode</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="pages/widgets.html"
-                  class="nav-link"
-                >
-                  <i class="nav-icon fas fa-th" />
-                  <p>
-                    Widgets
-                    <span class="right badge badge-danger">New</span>
-                  </p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link"
-                >
-                  <i class="nav-icon fas fa-copy" />
-                  <p>
-                    Layout Options
-                    <i class="fas fa-angle-left right" />
-                    <span class="badge badge-info right">6</span>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a
-                      href="pages/layout/top-nav.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Top Navigation</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/layout/top-nav-sidebar.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Top Navigation + Sidebar</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/layout/boxed.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Boxed</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/layout/fixed-sidebar.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Fixed Sidebar</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/layout/fixed-sidebar-custom.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Fixed Sidebar <small>+ Custom Area</small></p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/layout/fixed-topnav.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Fixed Navbar</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/layout/fixed-footer.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Fixed Footer</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/layout/collapsed-sidebar.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Collapsed Sidebar</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link"
-                >
-                  <i class="nav-icon fas fa-chart-pie" />
-                  <p>
-                    Charts
-                    <i class="right fas fa-angle-left" />
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a
-                      href="pages/charts/chartjs.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>ChartJS</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/charts/flot.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Flot</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/charts/inline.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Inline</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/charts/uplot.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>uPlot</p>
                     </a>
                   </li>
                 </ul>
@@ -493,15 +348,6 @@
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>General</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="pages/UI/icons.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Icons</p>
                     </a>
                   </li>
                   <li class="nav-item">
@@ -653,29 +499,6 @@
               </li>
               <li class="nav-header">
                 EXAMPLES
-              </li>
-              <li class="nav-item">
-                <a
-                  href="pages/calendar.html"
-                  class="nav-link"
-                >
-                  <i class="nav-icon far fa-calendar-alt" />
-                  <p>
-                    Calendar
-                    <span class="badge badge-info right">2</span>
-                  </p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="pages/gallery.html"
-                  class="nav-link"
-                >
-                  <i class="nav-icon far fa-image" />
-                  <p>
-                    Gallery
-                  </p>
-                </a>
               </li>
               <li class="nav-item">
                 <a
@@ -1033,15 +856,6 @@
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
                     <a
-                      href="pages/search/simple.html"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Simple Search</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
                       href="pages/search/enhanced.html"
                       class="nav-link"
                     >
@@ -1050,151 +864,6 @@
                     </a>
                   </li>
                 </ul>
-              </li>
-              <li class="nav-header">
-                MISCELLANEOUS
-              </li>
-              <li class="nav-item">
-                <a
-                  href="iframe.html"
-                  class="nav-link"
-                >
-                  <i class="nav-icon fas fa-ellipsis-h" />
-                  <p>Tabbed IFrame Plugin</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="https://adminlte.io/docs/3.1/"
-                  class="nav-link"
-                >
-                  <i class="nav-icon fas fa-file" />
-                  <p>Documentation</p>
-                </a>
-              </li>
-              <li class="nav-header">
-                MULTI LEVEL EXAMPLE
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link"
-                >
-                  <i class="fas fa-circle nav-icon" />
-                  <p>Level 1</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link"
-                >
-                  <i class="nav-icon fas fa-circle" />
-                  <p>
-                    Level 1
-                    <i class="right fas fa-angle-left" />
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a
-                      href="#"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Level 2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="#"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>
-                        Level 2
-                        <i class="right fas fa-angle-left" />
-                      </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                      <li class="nav-item">
-                        <a
-                          href="#"
-                          class="nav-link"
-                        >
-                          <i class="far fa-dot-circle nav-icon" />
-                          <p>Level 3</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          href="#"
-                          class="nav-link"
-                        >
-                          <i class="far fa-dot-circle nav-icon" />
-                          <p>Level 3</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          href="#"
-                          class="nav-link"
-                        >
-                          <i class="far fa-dot-circle nav-icon" />
-                          <p>Level 3</p>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="#"
-                      class="nav-link"
-                    >
-                      <i class="far fa-circle nav-icon" />
-                      <p>Level 2</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link"
-                >
-                  <i class="fas fa-circle nav-icon" />
-                  <p>Level 1</p>
-                </a>
-              </li>
-              <li class="nav-header">
-                LABELS
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link"
-                >
-                  <i class="nav-icon far fa-circle text-danger" />
-                  <p class="text">Important</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link"
-                >
-                  <i class="nav-icon far fa-circle text-warning" />
-                  <p>Warning</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link"
-                >
-                  <i class="nav-icon far fa-circle text-info" />
-                  <p>Informational</p>
-                </a>
               </li>
             </ul>
           </nav>
@@ -1205,36 +874,7 @@
 
       <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        <div class="content-header">
-          <div class="container-fluid">
-            <div class="row mb-2">
-              <div class="col-sm-6">
-                <h1 class="m-0">
-                  Dashboard
-                </h1>
-              </div><!-- /.col -->
-              <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                  <li class="breadcrumb-item">
-                    <a href="#">Home</a>
-                  </li>
-                  <li class="breadcrumb-item active">
-                    Dashboard v1
-                  </li>
-                </ol>
-              </div><!-- /.col -->
-            </div><!-- /.row -->
-          </div><!-- /.container-fluid -->
-        </div>
-        <!-- /.content-header -->
-
-        <!-- Main content -->
-        <section class="content">
-          <slot />
-        </section>
-
-      <!-- /.content -->
+        <slot />
       </div>
 
       <!-- /.content-wrapper -->
@@ -1268,7 +908,8 @@ export default {
   },
   data () {
     return {
-      hideSidebarMini: false
+      hideSidebarMini: false,
+      darkMode: false
     }
   },
   mounted () {
