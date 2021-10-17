@@ -317,9 +317,12 @@
             >
               <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-              <li class="nav-item menu-open">
+              <li
+                class="nav-item"
+                :class="isOpen && isMenuOpen==0 ? 'menu-is-opening menu-open' :''"
+                @click="openMenu(0)"
+              >
                 <inertia-link
-                  href="#"
                   class="nav-link active"
                 >
                   <i class="nav-icon fas fa-tachometer-alt" />
@@ -333,19 +336,16 @@
                     class="nav-item"
                     @click="darkMode?darkMode =false:darkMode=true"
                   >
-                    <input
-                      id="todoCheck2"
-                      v-model="darkMode"
-                      type="checkbox"
-                      name="todo2"
+                    <inertia-link
+                      class="nav-link"
                     >
-                    <label
-                      class="custom-control-label"
-                    >dark mode</label>
+                      <i class="far fa-circle nav-icon" />
+                      <p>Dashboard  Dark Mode</p>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
                     <inertia-link
-                      href=""
+                      :href="route('dashboard')"
                       class="nav-link active"
                     >
                       <i class="far fa-circle nav-icon" />
@@ -354,9 +354,12 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="isOpen && isMenuOpen==1 ? 'menu-is-opening menu-open' :''"
+                @click="openMenu(1)"
+              >
                 <inertia-link
-                  href="#"
                   class="nav-link"
                 >
                   <i class="nav-icon fas fa-tree" />
@@ -431,7 +434,11 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="isOpen && isMenuOpen==2 ? 'menu-is-opening menu-open' :''"
+                @click="openMenu(2)"
+              >
                 <inertia-link
                   href="#"
                   class="nav-link"
@@ -481,7 +488,11 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="isOpen && isMenuOpen==3 ? 'menu-is-opening menu-open' :''"
+                @click="openMenu(3)"
+              >
                 <inertia-link
                   href="#"
                   class="nav-link"
@@ -536,7 +547,11 @@
                   </p>
                 </inertia-link>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="isOpen && isMenuOpen==4 ? 'menu-is-opening menu-open' :''"
+                @click="openMenu(4)"
+              >
                 <inertia-link
                   href="#"
                   class="nav-link"
@@ -577,7 +592,11 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="isOpen && isMenuOpen==5 ? 'menu-is-opening menu-open' :''"
+                @click="openMenu(5)"
+              >
                 <inertia-link
                   href="#"
                   class="nav-link"
@@ -681,7 +700,11 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="isOpen && isMenuOpen==6 ? 'menu-is-opening menu-open' :''"
+                @click="openMenu(6)"
+              >
                 <inertia-link
                   href="#"
                   class="nav-link"
@@ -867,7 +890,11 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="isOpen && isMenuOpen==7 ? 'menu-is-opening menu-open' :''"
+                @click="openMenu(7)"
+              >
                 <inertia-link
                   href="#"
                   class="nav-link"
@@ -934,7 +961,9 @@ export default {
   data () {
     return {
       hideSidebarMini: false,
-      darkMode: false
+      darkMode: false,
+      isOpen: false,
+      isMenuOpen: 0
     }
   },
   mounted () {
@@ -948,9 +977,11 @@ export default {
         preserveState: false
       })
     },
-
     logout () {
       this.$inertia.post(route('logout'))
+    },
+    openMenu (key) {
+      this.isOpen ? this.isOpen = false && (this.isMenuOpen = 0) : this.isOpen = true && (this.isMenuOpen = key)
     }
   }
 }
