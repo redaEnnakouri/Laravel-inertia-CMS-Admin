@@ -11,25 +11,31 @@
         <!-- Left navbar links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a
+            <inertia-link
               class="nav-link"
               data-widget="pushmenu"
               href="#"
               role="button"
               @click="hideSidebarMini?hideSidebarMini=false:hideSidebarMini=true"
-            ><i class="fas fa-bars" /></a>
+            >
+              <i class="fas fa-bars" />
+            </inertia-link>
           </li>
           <li class="nav-item d-none d-sm-inline-block">
-            <a
+            <inertia-link
               href="index3.html"
               class="nav-link"
-            >Home</a>
+            >
+              Home
+            </inertia-link>
           </li>
           <li class="nav-item d-none d-sm-inline-block">
-            <a
+            <inertia-link
               href="#"
               class="nav-link"
-            >Contact</a>
+            >
+              Contact
+            </inertia-link>
           </li>
         </ul>
 
@@ -37,14 +43,14 @@
         <ul class="navbar-nav ml-auto">
           <!-- Navbar Search -->
           <li class="nav-item">
-            <a
+            <inertia-link
               class="nav-link"
               data-widget="navbar-search"
               href="#"
               role="button"
             >
               <i class="fas fa-search" />
-            </a>
+            </inertia-link>
             <div class="navbar-search-block">
               <form class="form-inline">
                 <div class="input-group input-group-sm">
@@ -76,23 +82,23 @@
 
           <!-- Messages Dropdown Menu -->
           <li class="nav-item dropdown">
-            <a
+            <inertia-link
               class="nav-link"
               data-toggle="dropdown"
               href="#"
             >
               <i class="far fa-comments" />
               <span class="badge badge-danger navbar-badge">3</span>
-            </a>
+            </inertia-link>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-              <a
+              <inertia-link
                 href="#"
                 class="dropdown-item"
               >
                 <!-- Message Start -->
                 <div class="media">
                   <img
-                    src="dist/img/user1-128x128.jpg"
+                    src="/dist/img/user1-128x128.jpg"
                     alt="User Avatar"
                     class="img-size-50 mr-3 img-circle"
                   >
@@ -101,21 +107,25 @@
                       Brad Diesel
                       <span class="float-right text-sm text-danger"><i class="fas fa-star" /></span>
                     </h3>
-                    <p class="text-sm">Call me whenever you can...</p>
-                    <p class="text-sm text-muted"><i class="far fa-clock mr-1" /> 4 Hours Ago</p>
+                    <p class="text-sm">
+                      Call me whenever you can...
+                    </p>
+                    <p class="text-sm text-muted">
+                      <i class="far fa-clock mr-1" /> 4 Hours Ago
+                    </p>
                   </div>
                 </div>
                 <!-- Message End -->
-              </a>
+              </inertia-link>
               <div class="dropdown-divider" />
-              <a
+              <inertia-link
                 href="#"
                 class="dropdown-item"
               >
                 <!-- Message Start -->
                 <div class="media">
                   <img
-                    src="dist/img/user8-128x128.jpg"
+                    src="/dist/img/user8-128x128.jpg"
                     alt="User Avatar"
                     class="img-size-50 img-circle mr-3"
                   >
@@ -124,21 +134,25 @@
                       John Pierce
                       <span class="float-right text-sm text-muted"><i class="fas fa-star" /></span>
                     </h3>
-                    <p class="text-sm">I got your message bro</p>
-                    <p class="text-sm text-muted"><i class="far fa-clock mr-1" /> 4 Hours Ago</p>
+                    <p class="text-sm">
+                      I got your message bro
+                    </p>
+                    <p class="text-sm text-muted">
+                      <i class="far fa-clock mr-1" /> 4 Hours Ago
+                    </p>
                   </div>
                 </div>
                 <!-- Message End -->
-              </a>
+              </inertia-link>
               <div class="dropdown-divider" />
-              <a
+              <inertia-link
                 href="#"
                 class="dropdown-item"
               >
                 <!-- Message Start -->
                 <div class="media">
                   <img
-                    src="dist/img/user3-128x128.jpg"
+                    src="/dist/img/user3-128x128.jpg"
                     alt="User Avatar"
                     class="img-size-50 img-circle mr-3"
                   >
@@ -147,74 +161,82 @@
                       Nora Silvester
                       <span class="float-right text-sm text-warning"><i class="fas fa-star" /></span>
                     </h3>
-                    <p class="text-sm">The subject goes here</p>
-                    <p class="text-sm text-muted"><i class="far fa-clock mr-1" /> 4 Hours Ago</p>
+                    <p class="text-sm">
+                      The subject goes here
+                    </p>
+                    <p class="text-sm text-muted">
+                      <i class="far fa-clock mr-1" /> 4 Hours Ago
+                    </p>
                   </div>
                 </div>
                 <!-- Message End -->
-              </a>
+              </inertia-link>
               <div class="dropdown-divider" />
-              <a
+              <inertia-link
                 href="#"
                 class="dropdown-item dropdown-footer"
-              >See All Messages</a>
+              >
+                See All Messages
+              </inertia-link>
             </div>
           </li>
           <!-- Notifications Dropdown Menu -->
           <li class="nav-item dropdown">
-            <a
+            <inertia-link
               class="nav-link"
               data-toggle="dropdown"
               href="#"
             >
               <i class="far fa-bell" />
               <span class="badge badge-warning navbar-badge">15</span>
-            </a>
+            </inertia-link>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
               <span class="dropdown-item dropdown-header">15 Notifications</span>
               <div class="dropdown-divider" />
-              <a
+              <inertia-link
                 href="#"
                 class="dropdown-item"
               >
                 <i class="fas fa-envelope mr-2" /> 4 new messages
                 <span class="float-right text-muted text-sm">3 mins</span>
-              </a>
+              </inertia-link>
               <div class="dropdown-divider" />
-              <a
+              <inertia-link
                 href="#"
                 class="dropdown-item"
               >
                 <i class="fas fa-users mr-2" /> 8 friend requests
                 <span class="float-right text-muted text-sm">12 hours</span>
-              </a>
+              </inertia-link>
               <div class="dropdown-divider" />
-              <a
+              <inertia-link
                 href="#"
                 class="dropdown-item"
               >
                 <i class="fas fa-file mr-2" /> 3 new reports
                 <span class="float-right text-muted text-sm">2 days</span>
-              </a>
+              </inertia-link>
               <div class="dropdown-divider" />
-              <a
+              <inertia-link
                 href="#"
                 class="dropdown-item dropdown-footer"
-              >See All Notifications</a>
+              >
+                See All Notifications
+              </inertia-link>
             </div>
           </li>
           <li class="nav-item">
-            <a
+            <inertia-link
               class="nav-link"
               data-widget="fullscreen"
               href="#"
               role="button"
             >
               <i class="fas fa-expand-arrows-alt" />
-            </a>
+            </inertia-link>
           </li>
           <li class="nav-item">
-            <a
+            <inertia-link
               class="nav-link"
               data-widget="control-sidebar"
               data-controlsidebar-slide="true"
@@ -222,7 +244,7 @@
               role="button"
             >
               <i class="fas fa-th-large" />
-            </a>
+            </inertia-link>
           </li>
         </ul>
       </nav>
@@ -231,18 +253,18 @@
       <!-- Main Sidebar Container -->
       <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a
+        <inertia-link
           href="index3.html"
           class="brand-link"
         >
           <img
-            src="dist/img/AdminLTELogo.png"
+            src="/dist/img/AdminLTELogo.png"
             alt="AdminLTE Logo"
             class="brand-image img-circle elevation-3"
             style="opacity: .8"
           >
           <span class="brand-text font-weight-light">AdminLTE 3</span>
-        </a>
+        </inertia-link>
 
         <!-- Sidebar -->
         <div class="sidebar">
@@ -250,16 +272,18 @@
           <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
               <img
-                src="dist/img/user2-160x160.jpg"
+                src="/dist/img/user2-160x160.jpg"
                 class="img-circle elevation-2"
                 alt="User Image"
               >
             </div>
             <div class="info">
-              <a
+              <inertia-link
                 href="#"
                 class="d-block"
-              >Alexander Pierce</a>
+              >
+                Alexander Pierce
+              </inertia-link>
             </div>
           </div>
 
@@ -294,7 +318,7 @@
               <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
               <li class="nav-item menu-open">
-                <a
+                <inertia-link
                   href="#"
                   class="nav-link active"
                 >
@@ -303,34 +327,35 @@
                     Dashboard
                     <i class="right fas fa-angle-left" />
                   </p>
-                </a>
+                </inertia-link>
                 <ul class="nav nav-treeview">
                   <li
                     class="nav-item"
                     @click="darkMode?darkMode =false:darkMode=true"
                   >
                     <input
+                      id="todoCheck2"
+                      v-model="darkMode"
                       type="checkbox"
-                      class="custom-control-input"
-                      @click="darkMode?darkMode =false:darkMode=true"
+                      name="todo2"
                     >
                     <label
                       class="custom-control-label"
                     >dark mode</label>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href=""
                       class="nav-link active"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Dashboard </p>
-                    </a>
+                    </inertia-link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a
+                <inertia-link
                   href="#"
                   class="nav-link"
                 >
@@ -339,75 +364,75 @@
                     UI Elements
                     <i class="fas fa-angle-left right" />
                   </p>
-                </a>
+                </inertia-link>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a
-                      href="pages/UI/general.html"
+                    <inertia-link
+                      :href="route('ui.general')"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>General</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/UI/buttons.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Buttons</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/UI/sliders.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Sliders</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/UI/modals.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Modals & Alerts</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/UI/navbar.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Navbar & Tabs</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/UI/timeline.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Timeline</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/UI/ribbons.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Ribbons</p>
-                    </a>
+                    </inertia-link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a
+                <inertia-link
                   href="#"
                   class="nav-link"
                 >
@@ -416,48 +441,48 @@
                     Forms
                     <i class="fas fa-angle-left right" />
                   </p>
-                </a>
+                </inertia-link>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/forms/general.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>General Elements</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/forms/advanced.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Advanced Elements</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/forms/editors.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Editors</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/forms/validation.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Validation</p>
-                    </a>
+                    </inertia-link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a
+                <inertia-link
                   href="#"
                   class="nav-link"
                 >
@@ -466,34 +491,34 @@
                     Tables
                     <i class="fas fa-angle-left right" />
                   </p>
-                </a>
+                </inertia-link>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/tables/simple.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Simple Tables</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/tables/data.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>DataTables</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/tables/jsgrid.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>jsGrid</p>
-                    </a>
+                    </inertia-link>
                   </li>
                 </ul>
               </li>
@@ -501,7 +526,7 @@
                 EXAMPLES
               </li>
               <li class="nav-item">
-                <a
+                <inertia-link
                   href="pages/kanban.html"
                   class="nav-link"
                 >
@@ -509,10 +534,10 @@
                   <p>
                     Kanban Board
                   </p>
-                </a>
+                </inertia-link>
               </li>
               <li class="nav-item">
-                <a
+                <inertia-link
                   href="#"
                   class="nav-link"
                 >
@@ -521,39 +546,39 @@
                     Mailbox
                     <i class="fas fa-angle-left right" />
                   </p>
-                </a>
+                </inertia-link>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/mailbox/mailbox.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Inbox</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/mailbox/compose.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Compose</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/mailbox/read-mail.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Read</p>
-                    </a>
+                    </inertia-link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a
+                <inertia-link
                   href="#"
                   class="nav-link"
                 >
@@ -562,102 +587,102 @@
                     Pages
                     <i class="fas fa-angle-left right" />
                   </p>
-                </a>
+                </inertia-link>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/invoice.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Invoice</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/profile.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Profile</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/e-commerce.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>E-commerce</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/projects.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Projects</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/project-add.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Project Add</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/project-edit.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Project Edit</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/project-detail.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Project Detail</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/contacts.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Contacts</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/faq.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>FAQ</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/contact-us.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Contact us</p>
-                    </a>
+                    </inertia-link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a
+                <inertia-link
                   href="#"
                   class="nav-link"
                 >
@@ -666,10 +691,10 @@
                     Extras
                     <i class="fas fa-angle-left right" />
                   </p>
-                </a>
+                </inertia-link>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="#"
                       class="nav-link"
                     >
@@ -678,48 +703,48 @@
                         Login & Register v1
                         <i class="fas fa-angle-left right" />
                       </p>
-                    </a>
+                    </inertia-link>
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
-                        <a
+                        <inertia-link
                           href="pages/examples/login.html"
                           class="nav-link"
                         >
                           <i class="far fa-circle nav-icon" />
                           <p>Login v1</p>
-                        </a>
+                        </inertia-link>
                       </li>
                       <li class="nav-item">
-                        <a
+                        <inertia-link
                           href="pages/examples/register.html"
                           class="nav-link"
                         >
                           <i class="far fa-circle nav-icon" />
                           <p>Register v1</p>
-                        </a>
+                        </inertia-link>
                       </li>
                       <li class="nav-item">
-                        <a
+                        <inertia-link
                           href="pages/examples/forgot-password.html"
                           class="nav-link"
                         >
                           <i class="far fa-circle nav-icon" />
                           <p>Forgot Password v1</p>
-                        </a>
+                        </inertia-link>
                       </li>
                       <li class="nav-item">
-                        <a
+                        <inertia-link
                           href="pages/examples/recover-password.html"
                           class="nav-link"
                         >
                           <i class="far fa-circle nav-icon" />
                           <p>Recover Password v1</p>
-                        </a>
+                        </inertia-link>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="#"
                       class="nav-link"
                     >
@@ -728,122 +753,122 @@
                         Login & Register v2
                         <i class="fas fa-angle-left right" />
                       </p>
-                    </a>
+                    </inertia-link>
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
-                        <a
+                        <inertia-link
                           href="pages/examples/login-v2.html"
                           class="nav-link"
                         >
                           <i class="far fa-circle nav-icon" />
                           <p>Login v2</p>
-                        </a>
+                        </inertia-link>
                       </li>
                       <li class="nav-item">
-                        <a
+                        <inertia-link
                           href="pages/examples/register-v2.html"
                           class="nav-link"
                         >
                           <i class="far fa-circle nav-icon" />
                           <p>Register v2</p>
-                        </a>
+                        </inertia-link>
                       </li>
                       <li class="nav-item">
-                        <a
+                        <inertia-link
                           href="pages/examples/forgot-password-v2.html"
                           class="nav-link"
                         >
                           <i class="far fa-circle nav-icon" />
                           <p>Forgot Password v2</p>
-                        </a>
+                        </inertia-link>
                       </li>
                       <li class="nav-item">
-                        <a
+                        <inertia-link
                           href="pages/examples/recover-password-v2.html"
                           class="nav-link"
                         >
                           <i class="far fa-circle nav-icon" />
                           <p>Recover Password v2</p>
-                        </a>
+                        </inertia-link>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/lockscreen.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Lockscreen</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/legacy-user-menu.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Legacy User Menu</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/language-menu.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Language Menu</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/404.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Error 404</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/500.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Error 500</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/pace.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Pace</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/examples/blank.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Blank Page</p>
-                    </a>
+                    </inertia-link>
                   </li>
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="starter.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Starter Page</p>
-                    </a>
+                    </inertia-link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a
+                <inertia-link
                   href="#"
                   class="nav-link"
                 >
@@ -852,16 +877,16 @@
                     Search
                     <i class="fas fa-angle-left right" />
                   </p>
-                </a>
+                </inertia-link>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a
+                    <inertia-link
                       href="pages/search/enhanced.html"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
                       <p>Enhanced</p>
-                    </a>
+                    </inertia-link>
                   </li>
                 </ul>
               </li>
@@ -879,7 +904,7 @@
 
       <!-- /.content-wrapper -->
       <footer class="main-footer">
-        <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+        <strong>Copyright &copy; 2014-2021 <inertia-link href="https://adminlte.io">AdminLTE.io  </inertia-link>.</strong>
         All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
           <b>Version</b> 3.2.0-rc

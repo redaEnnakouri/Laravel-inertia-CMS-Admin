@@ -12,7 +12,9 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item">
-                <a href="#">Home</a>
+                <inertia-link href="#">
+                  Home
+                </inertia-link>
               </li>
               <li class="breadcrumb-item active">
                 Dashboard v1
@@ -40,10 +42,12 @@
               <div class="icon">
                 <i class="ion ion-bag" />
               </div>
-              <a
+              <inertia-link
                 href="#"
                 class="small-box-footer"
-              >More info <i class="fas fa-arrow-circle-right" /></a>
+              >
+                More info <i class="fas fa-arrow-circle-right" />
+              </inertia-link>
             </div>
           </div>
           <!-- ./col -->
@@ -58,10 +62,12 @@
               <div class="icon">
                 <i class="ion ion-stats-bars" />
               </div>
-              <a
+              <inertia-link
                 href="#"
                 class="small-box-footer"
-              >More info <i class="fas fa-arrow-circle-right" /></a>
+              >
+                More info <i class="fas fa-arrow-circle-right" />
+              </inertia-link>
             </div>
           </div>
           <!-- ./col -->
@@ -76,10 +82,12 @@
               <div class="icon">
                 <i class="ion ion-person-add" />
               </div>
-              <a
+              <inertia-link
                 href="#"
                 class="small-box-footer"
-              >More info <i class="fas fa-arrow-circle-right" /></a>
+              >
+                More info <i class="fas fa-arrow-circle-right" />
+              </inertia-link>
             </div>
           </div>
           <!-- ./col -->
@@ -94,10 +102,12 @@
               <div class="icon">
                 <i class="ion ion-pie-graph" />
               </div>
-              <a
+              <inertia-link
                 href="#"
                 class="small-box-footer"
-              >More info <i class="fas fa-arrow-circle-right" /></a>
+              >
+                More info <i class="fas fa-arrow-circle-right" />
+              </inertia-link>
             </div>
           </div>
           <!-- ./col -->
@@ -233,7 +243,7 @@
                 <div class="direct-chat-contacts">
                   <ul class="contacts-list">
                     <li>
-                      <a href="#">
+                      <inertia-link href="#">
                         <img
                           class="contacts-list-img"
                           src="dist/img/user1-128x128.jpg"
@@ -248,11 +258,11 @@
                           <span class="contacts-list-msg">How have you been? I was...</span>
                         </div>
                         <!-- /.contacts-list-info -->
-                      </a>
+                      </inertia-link>
                     </li>
                     <!-- End Contact Item -->
                     <li>
-                      <a href="#">
+                      <inertia-link href="#">
                         <img
                           class="contacts-list-img"
                           src="dist/img/user7-128x128.jpg"
@@ -267,11 +277,11 @@
                           <span class="contacts-list-msg">I will be waiting for...</span>
                         </div>
                         <!-- /.contacts-list-info -->
-                      </a>
+                      </inertia-link>
                     </li>
                     <!-- End Contact Item -->
                     <li>
-                      <a href="#">
+                      <inertia-link href="#">
                         <img
                           class="contacts-list-img"
                           src="dist/img/user3-128x128.jpg"
@@ -286,11 +296,11 @@
                           <span class="contacts-list-msg">I'll call you back at...</span>
                         </div>
                         <!-- /.contacts-list-info -->
-                      </a>
+                      </inertia-link>
                     </li>
                     <!-- End Contact Item -->
                     <li>
-                      <a href="#">
+                      <inertia-link href="#">
                         <img
                           class="contacts-list-img"
                           src="dist/img/user5-128x128.jpg"
@@ -305,11 +315,11 @@
                           <span class="contacts-list-msg">Where is your new...</span>
                         </div>
                         <!-- /.contacts-list-info -->
-                      </a>
+                      </inertia-link>
                     </li>
                     <!-- End Contact Item -->
                     <li>
-                      <a href="#">
+                      <inertia-link href="#">
                         <img
                           class="contacts-list-img"
                           src="dist/img/user6-128x128.jpg"
@@ -324,11 +334,11 @@
                           <span class="contacts-list-msg">Can I take a look at...</span>
                         </div>
                         <!-- /.contacts-list-info -->
-                      </a>
+                      </inertia-link>
                     </li>
                     <!-- End Contact Item -->
                     <li>
-                      <a href="#">
+                      <inertia-link href="#">
                         <img
                           class="contacts-list-img"
                           src="dist/img/user8-128x128.jpg"
@@ -343,7 +353,7 @@
                           <span class="contacts-list-msg">Never mind I found...</span>
                         </div>
                         <!-- /.contacts-list-info -->
-                      </a>
+                      </inertia-link>
                     </li>
                     <!-- End Contact Item -->
                   </ul>
@@ -388,34 +398,44 @@
                 <div class="card-tools">
                   <ul class="pagination pagination-sm">
                     <li class="page-item">
-                      <a
+                      <inertia-link
                         href="#"
                         class="page-link"
-                      >&laquo;</a>
+                      >
+                        &laquo;
+                      </inertia-link>
                     </li>
                     <li class="page-item">
-                      <a
+                      <inertia-link
                         href="#"
                         class="page-link"
-                      >1</a>
+                      >
+                        1
+                      </inertia-link>
                     </li>
                     <li class="page-item">
-                      <a
+                      <inertia-link
                         href="#"
                         class="page-link"
-                      >2</a>
+                      >
+                        2
+                      </inertia-link>
                     </li>
                     <li class="page-item">
-                      <a
+                      <inertia-link
                         href="#"
                         class="page-link"
-                      >3</a>
+                      >
+                        3
+                      </inertia-link>
                     </li>
                     <li class="page-item">
-                      <a
+                      <inertia-link
                         href="#"
                         class="page-link"
-                      >&raquo;</a>
+                      >
+                        &raquo;
+                      </inertia-link>
                     </li>
                   </ul>
                 </div>

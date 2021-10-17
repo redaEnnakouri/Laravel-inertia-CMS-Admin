@@ -1,10 +1,8 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\GeneratePageController;
-use Illuminate\Foundation\Application;
+use App\Http\Controllers\UI\GeneralController;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,12 +15,17 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', [GeneratePageController::class,'index'])->name('Welcome');
+Route::get('/', function () {
+    return redirect()->route('dashboard');
+});
 
 
-Route::get('/dashboard',[DashboardController::class,'index'])->name('dashboard');
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+Route::name('ui.')->group(function () {
+    Route::get('/ui/general', [GeneralController::class, 'index'])->name('general');
+});
 
 Route::group(['middleware' => ['auth:sanctum']], function () {
- 
-   
+    //nothing use now
 });
