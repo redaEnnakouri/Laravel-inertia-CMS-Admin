@@ -509,34 +509,48 @@
                     Tabs
                   </h3>
                   <ul class="nav nav-pills ml-auto p-2">
-                    <li class="nav-item">
+                    <li
+                      class="nav-item"
+                      @click="isActiveTab=0"
+                    >
                       <inertia-link
-                        class="nav-link active"
+                        class="nav-link "
+                        :class="isActiveTab==0 ? 'active' : ''"
                         href="#tab_1"
                         data-toggle="tab"
                       >
                         Tab 1
                       </inertia-link>
                     </li>
-                    <li class="nav-item">
+                    <li
+                      class="nav-item"
+                      @click="isActiveTab=1"
+                    >
                       <inertia-link
                         class="nav-link"
-                        href="#tab_2"
+                        :class="isActiveTab==1 ? 'active' : ''"
                         data-toggle="tab"
                       >
                         Tab 2
                       </inertia-link>
                     </li>
-                    <li class="nav-item">
+                    <li
+                      class="nav-item"
+                      @click="isActiveTab=2"
+                    >
                       <inertia-link
                         class="nav-link"
-                        href="#tab_3"
+                        :class="isActiveTab==2 ? 'active' : ''"
                         data-toggle="tab"
                       >
                         Tab 3
                       </inertia-link>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li
+                      class="nav-item dropdown"
+                      :class="isActiveDropdown ? 'show' : ''"
+                      @click="isActiveDropdown ? isActiveDropdown=false : isActiveDropdown=true"
+                    >
                       <inertia-link
                         class="nav-link dropdown-toggle"
                         data-toggle="dropdown"
@@ -544,7 +558,10 @@
                       >
                         Dropdown <span class="caret" />
                       </inertia-link>
-                      <div class="dropdown-menu">
+                      <div
+                        class="dropdown-menu"
+                        :class="isActiveDropdown ? 'show' : '' "
+                      >
                         <inertia-link
                           class="dropdown-item"
                           tabindex="-1"
@@ -582,7 +599,8 @@
                   <div class="tab-content">
                     <div
                       id="tab_1"
-                      class="tab-pane active"
+                      class="tab-pane"
+                      :class="isActiveTab==0 ? 'active' : ''"
                     >
                       A wonderful serenity has taken possession of my entire soul,
                       like these sweet mornings of spring which I enjoy with my whole heart.
@@ -596,6 +614,7 @@
                     <div
                       id="tab_2"
                       class="tab-pane"
+                      :class="isActiveTab==1 ? 'active' : ''"
                     >
                       The European languages are members of the same family. Their separate existence is a myth.
                       For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ
@@ -609,6 +628,7 @@
                     <div
                       id="tab_3"
                       class="tab-pane"
+                      :class="isActiveTab==2 ? 'active' : ''"
                     >
                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -1625,6 +1645,12 @@ import AppLayout from '@/Layouts/AppLayout.vue'
 export default {
   components: {
     AppLayout
+  },
+  data () {
+    return {
+      isActiveTab: 0,
+      isActiveDropdown: false
+    }
   }
 }
 </script>
