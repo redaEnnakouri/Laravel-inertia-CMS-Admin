@@ -22,8 +22,8 @@ Route::get('/', function () {
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
-Route::name('ui.')->group(function () {
-    Route::get('/ui/general', [GeneralController::class, 'index'])->name('general');
+Route::name('ui.')->prefix('ui')->group(function () {
+    Route::get('/general', [GeneralController::class, 'index'])->name('general');
 });
 
 Route::group(['middleware' => ['auth:sanctum']], function () {
