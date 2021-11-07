@@ -25,7 +25,7 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard
 
 Route::name('ui.')->prefix('ui')->group(function () {
     Route::get('/general', [GeneralController::class, 'index'])->name('general');
-    Route::get('/buttons', [ButtonController::class, 'index'])->name('button');
+    Route::get('/buttons', [ButtonController::class, 'index'])->name('buttons');
 });
 
 Route::group(['middleware' => ['auth:sanctum']], function () {

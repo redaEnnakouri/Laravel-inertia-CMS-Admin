@@ -1457,14 +1457,18 @@
                               data-toggle="dropdown"
                             />
                             <div class="dropdown-menu">
-                              <a
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
-                              <a
+                              >
+                                Dropdown link
+                              </inertia-link>
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
+                              >
+                                Dropdown link
+                              </inertia-link>
                             </div>
                           </div>
                         </div>
@@ -1561,14 +1565,18 @@
                               data-toggle="dropdown"
                             />
                             <div class="dropdown-menu">
-                              <a
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
-                              <a
+                              >
+                                Dropdown link
+                              </inertia-link>
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
+                              >
+                                Dropdown link
+                              </inertia-link>
                             </div>
                           </div>
                         </div>
@@ -1665,14 +1673,18 @@
                               data-toggle="dropdown"
                             />
                             <div class="dropdown-menu">
-                              <a
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
-                              <a
+                              >
+                                Dropdown link
+                              </inertia-link>
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
+                              >
+                                Dropdown link
+                              </inertia-link>
                             </div>
                           </div>
                         </div>
@@ -1769,14 +1781,18 @@
                               data-toggle="dropdown"
                             />
                             <div class="dropdown-menu">
-                              <a
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
-                              <a
+                              >
+                                Dropdown link
+                              </inertia-link>
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
+                              >
+                                Dropdown link
+                              </inertia-link>
                             </div>
                           </div>
                         </div>
@@ -1873,14 +1889,18 @@
                               data-toggle="dropdown"
                             />
                             <div class="dropdown-menu">
-                              <a
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
-                              <a
+                              >
+                                Dropdown link
+                              </inertia-link>
+                              <inertia-link
                                 class="dropdown-item"
                                 href="#"
-                              >Dropdown link</a>
+                              >
+                                Dropdown link
+                              </inertia-link>
                             </div>
                           </div>
                         </div>
@@ -1910,23 +1930,31 @@
                         Action
                       </button>
                       <div class="dropdown-menu">
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <!-- /btn-group -->
@@ -2003,23 +2031,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2040,23 +2076,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2077,23 +2121,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2114,23 +2166,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2151,23 +2211,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                   </div>
@@ -2196,23 +2264,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2233,23 +2309,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2270,23 +2354,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2307,23 +2399,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2344,23 +2444,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                   </div>
@@ -2388,23 +2496,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2425,23 +2541,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2462,23 +2586,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2499,23 +2631,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                     <div class="btn-group">
@@ -2536,23 +2676,31 @@
                         class="dropdown-menu"
                         role="menu"
                       >
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Action</a>
-                        <a
+                        >
+                          Action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Another action</a>
-                        <a
+                        >
+                          Another action
+                        </inertia-link>
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Something else here</a>
+                        >
+                          Something else here
+                        </inertia-link>
                         <div class="dropdown-divider" />
-                        <a
+                        <inertia-link
                           class="dropdown-item"
                           href="#"
-                        >Separated link</a>
+                        >
+                          Separated link
+                        </inertia-link>
                       </div>
                     </div>
                   </div>
@@ -2572,64 +2720,64 @@
                 </div>
                 <div class="card-body">
                   <p>Add the classes <code>.btn.btn-app</code> to an <code>&lt;a></code> tag to achieve the following:</p>
-                  <a class="btn btn-app">
+                  <inertia-link class="btn btn-app">
                     <i class="fas fa-edit" /> Edit
-                  </a>
-                  <a class="btn btn-app">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app">
                     <i class="fas fa-play" /> Play
-                  </a>
-                  <a class="btn btn-app">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app">
                     <i class="fas fa-pause" /> Pause
-                  </a>
-                  <a class="btn btn-app">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app">
                     <i class="fas fa-save" /> Save
-                  </a>
-                  <a class="btn btn-app">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app">
                     <span class="badge bg-warning">3</span>
                     <i class="fas fa-bullhorn" /> Notifications
-                  </a>
-                  <a class="btn btn-app">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app">
                     <span class="badge bg-success">300</span>
                     <i class="fas fa-barcode" /> Products
-                  </a>
-                  <a class="btn btn-app">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app">
                     <span class="badge bg-purple">891</span>
                     <i class="fas fa-users" /> Users
-                  </a>
-                  <a class="btn btn-app">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app">
                     <span class="badge bg-teal">67</span>
                     <i class="fas fa-inbox" /> Orders
-                  </a>
-                  <a class="btn btn-app">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app">
                     <span class="badge bg-info">12</span>
                     <i class="fas fa-envelope" /> Inbox
-                  </a>
-                  <a class="btn btn-app">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app">
                     <span class="badge bg-danger">531</span>
                     <i class="fas fa-heart" /> Likes
-                  </a>
+                  </inertia-link>
 
                   <p>Application Buttons with Custom Colors</p>
-                  <a class="btn btn-app bg-secondary">
+                  <inertia-link class="btn btn-app bg-secondary">
                     <span class="badge bg-success">300</span>
                     <i class="fas fa-barcode" /> Products
-                  </a>
-                  <a class="btn btn-app bg-success">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app bg-success">
                     <span class="badge bg-purple">891</span>
                     <i class="fas fa-users" /> Users
-                  </a>
-                  <a class="btn btn-app bg-danger">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app bg-danger">
                     <span class="badge bg-teal">67</span>
                     <i class="fas fa-inbox" /> Orders
-                  </a>
-                  <a class="btn btn-app bg-warning">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app bg-warning">
                     <span class="badge bg-info">12</span>
                     <i class="fas fa-envelope" /> Inbox
-                  </a>
-                  <a class="btn btn-app bg-info">
+                  </inertia-link>
+                  <inertia-link class="btn btn-app bg-info">
                     <span class="badge bg-danger">531</span>
                     <i class="fas fa-heart" /> Likes
-                  </a>
+                  </inertia-link>
                 </div>
               <!-- /.card-body -->
               </div>
@@ -2746,16 +2894,20 @@
                             />
                             <ul class="dropdown-menu">
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                             </ul>
                           </div>
@@ -2854,16 +3006,20 @@
                             />
                             <ul class="dropdown-menu">
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                             </ul>
                           </div>
@@ -2962,16 +3118,20 @@
                             />
                             <ul class="dropdown-menu">
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                             </ul>
                           </div>
@@ -3070,16 +3230,20 @@
                             />
                             <ul class="dropdown-menu">
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                             </ul>
                           </div>
@@ -3178,16 +3342,20 @@
                             />
                             <ul class="dropdown-menu">
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                               <li>
-                                <a
+                                <inertia-link
                                   class="dropdown-item"
                                   href="#"
-                                >Dropdown link</a>
+                                >
+                                  Dropdown link
+                                </inertia-link>
                               </li>
                             </ul>
                           </div>

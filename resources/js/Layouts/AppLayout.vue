@@ -380,7 +380,7 @@
                   </li>
                   <li class="nav-item">
                     <inertia-link
-                      href="pages/UI/buttons.html"
+                      :href="route('ui.buttons')"
                       class="nav-link"
                     >
                       <i class="far fa-circle nav-icon" />
