@@ -1,0 +1,46 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+/* css */
+@import './../dist/css/adminlte.css';
+@import './../dist/css/adminlte.min.css';
+    /* ALT */
+@import './../dist/css//alt/adminlte.components.css';
+@import './../dist/css//alt/adminlte.components.min.css';
+
+@import './../dist/css//alt/adminlte.core.css';
+@import './../dist/css//alt/adminlte.core.min.css';
+
+@import './../dist/css//alt/adminlte.extra-components.css';
+@import './../dist/css//alt/adminlte.extra-components.min.css';
+
+@import './../dist/css//alt/adminlte.light.css';
+@import './../dist/css//alt/adminlte.light.min.css';
+
+@import './../dist/css//alt/adminlte.pages.css';
+@import './../dist/css//alt/adminlte.pages.min.css';
+
+@import './../dist/css//alt/adminlte.plugins.css';
+@import './../dist/css//alt/adminlte.plugins.min.css';
+
+/* Pluging */
+@import './../plugins/fontawesome-free/css/all.min.css';
+@import './../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css';
+@import './../plugins/icheck-bootstrap/icheck-bootstrap.min.css';
+@import './../plugins/jqvmap/jqvmap.min.css';
+@import './../plugins/overlayScrollbars/css/OverlayScrollbars.min.css';
+@import './../plugins/daterangepicker/daterangepicker.css';
+@import './../plugins/summernote/summernote-bs4.min.css';
+
+
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+
+
+
+
+
+
